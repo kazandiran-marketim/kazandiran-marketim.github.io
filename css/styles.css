@@ -826,6 +826,10 @@ input[type="checkbox"] {
   position: relative;
 }
 
+.hero-fg {
+  scale: 1.2;
+}
+
 /* .slider-1 .image-container {
   height: 100%;
   display: inline-block;
