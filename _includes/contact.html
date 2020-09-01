@@ -1,0 +1,64 @@
+    <!-- Contact -->
+    <div id="contact" class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>İletişim Formu</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Sizler de alışveriş yaparken kazanmak için üyelik formunu doldurun, biz
+                            sizle iletişime
+                            geçelim!</li>
+                        <li><i class="fas fa-map-marker-alt"></i>İstanbul, Türkiye</li>
+                        <!-- <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:00000000">+9000000</a> -->
+                        </li>
+                        <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:office@evolo.com">
+                                {{ site.email }}</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6023.934097718813!2d29.20969012676591!3d40.98220236721347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x30545b1bb8eb8840!2sBest Otomasyon!5e0!3m2!1str!2str!4v1592906996820!5m2!1str!2str"
+                            allowfullscreen></iframe>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">İsim</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">E-posta</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control-input" id="ctel" required>
+                            <label class="label-control" for="ctel">Telefon numarası</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Mesajınız</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">GÖNDER</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of contact -->
