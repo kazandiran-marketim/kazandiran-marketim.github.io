@@ -1314,7 +1314,7 @@ input[type="checkbox"] {
 
 .slider-2 .swiper-container {
   position: static;
-  border-radius: 30px;
+  border-radius: 0.4rem;
   width: 90%;
   text-align: center;
 }
@@ -1357,7 +1357,7 @@ input[type="checkbox"] {
   height: 100%;
   display: block;
   margin-right: auto;
-  border-radius: 30px;
+  border-radius: 0.4rem;
 }
 
 .slider-2 .card-body {
