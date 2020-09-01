@@ -821,7 +821,7 @@ input[type="checkbox"] {
 }
 
 .slider-1 img {
-  width: 70%;
+  width: 90px;
   height: auto;
   position: relative;
 }
@@ -829,12 +829,6 @@ input[type="checkbox"] {
 .hero-fg {
   scale: 1.2;
 }
-
-/* .slider-1 .image-container {
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-} */
 
 .slider-1 .slider-container {
   padding-top: 2.75rem;
