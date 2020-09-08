@@ -1,4 +1,4 @@
-baseurl: 'https://kazandiran-market.com'
+baseurl: https://kazandiran-market.com
 description: Türkiye'nin İlk ve Tek Prim Kazandıran Süpermarketi
 email: your-email@example.com
 facebook: https://www.facebook.com/kazandiranmarketim/
@@ -15,6 +15,6 @@ slider:
 - url: https://kazandiranmarketim.com/images/slider/1597651648_bannernew.jpg
 theme: minima
 title: Kazandıran Marketim
-url: 'https://kazandiran-market.com'
+url: https://kazandiran-market.com
 urunler: https://kazandiranmarketim.com/urunler
 youtube: none
