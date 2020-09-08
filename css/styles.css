@@ -1520,6 +1520,8 @@ input[type="checkbox"] {
 .footer {
   padding-top: 4.625rem;
   padding-bottom: 0.5rem;
+  background: #c4d8dc;
+  background-size: cover;
 }
 
 .footer .footer-col {
